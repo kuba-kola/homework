@@ -1,7 +1,7 @@
 const firstParam = +prompt('Введите первое значение');
     secondParam = +prompt('Введите второе значение');
 
-const correctParams = (Number.isFinite && Number.isFinite)
+const correctParams = (Number.isFinite(firstParam) && Number.isFinite(secondParam))
 const compare = correctParams && secondParam <= 10 && secondParam >= 2;
 
 if (compare) {  
